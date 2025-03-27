@@ -4,7 +4,7 @@ I'm an enthusiastic programmer, who spends most of his free time integrating Rus
 I've worked part time at a local programming company [MFDC](https://mfdc.io/), for myself in a growing [partnership](https://www.jordanyatesdirect.com/about#About%20Us), and on many side projects that have collectively taught me most of what I know today about programming.
 
 ## Schoolbox Styling
-In Grade 10 i built a small chrome extension to change the colours of SchoolBox, a LMS our school used. It quickly grew in popularity, now it has about 143 users.
+In Grade 10 I built a small chrome extension to change the colours of SchoolBox, a LMS our school used. It quickly grew in popularity, now it has about 143 users.
 Such a simple solution, but I designed it to be transparent and automatic, so once you've installed it, it will silently sync between devices and just keep working.
 ![image](https://github.com/user-attachments/assets/bbc372e0-4882-43be-8a5f-86e4f7963257)
 
