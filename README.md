@@ -4,13 +4,18 @@ I'm an enthusiastic programmer, who spends most of his free time integrating Rus
 I've worked part time at a local programming company [MFDC](https://mfdc.io/), for myself in a growing [partnership](https://www.jordanyatesdirect.com/about#About%20Us), and on many side projects that have collectively taught me most of what I know today about programming.
 
 ## Schoolbox Styling
-In Grade 10 I built a small chrome extension to change the colours of SchoolBox, a LMS our school used. It quickly grew in popularity, now it has about 143 users.
+In Grade 10 I built a small chrome extension to change the colours of SchoolBox, a LMS our school used. It quickly grew in popularity, now it has over a hundred users spread across various schools in Ausrtalia and New Zealand.
 Such a simple solution, but I designed it to be transparent and automatic, so once you've installed it, it will silently sync between devices and just keep working.
 ![image](https://github.com/user-attachments/assets/bbc372e0-4882-43be-8a5f-86e4f7963257)
+I wanted to mention this because it was the first time a project I had built directly impacted the lives of people I had never met before, and because it used a very-hacky method of integrating [Flutter](https://flutter.dev/) with the [JS chrome extension API](https://developer.chrome.com/docs/extensions/reference/api)
+
+## ChessBois
+Around the same time, me and a couple other friends entered a competition called the [Mathematics and Statistics Research Competition (MSRC)](https://ms.unimelb.edu.au/engage/outreach/mathematics-and-statistics-research-challenge). We won the Queensland Prize, and are now [having it being published](https://ijhsr.terrajournals.org/), but my favourite part is the app I built which can be viewed in website form here: https://caleb-msrc-q11.netlify.app/. It is 100% Rust, uses a 3D game engine library called [Bevy](https://bevyengine.org/), and was an invaludable tool that has not been made before (to my knowledge).
+I needed to know the maths behind what I was building, but the success of that paper taught me the potential benifits of combining that domain-specific knowledge with good programming skills, which is more than just the best of both worlds.
 
 
 ## JYD
-I'm building a really cool 100% Rust ecommerce website from scratch.
+Now I'm building a really cool 100% Rust ecommerce website from scratch.
 I really enjoy building things without any tutorials, it forces you to solve already known problems and really makes you appreciate your solutions.
 I've noticed that my solutions to many existing problems have matched 'industry standard' almost exactly, it is very satisfying to listen to other devs talk about problems in the companies codebase that I solved myself just the other week.
 
