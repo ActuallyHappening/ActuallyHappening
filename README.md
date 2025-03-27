@@ -28,8 +28,9 @@ But I can say the tech stack I'm using:
 - [BinaryLane](https://www.binarylane.com.au) for self hosting, using simple-hosting solutions is for people with no time on their hands ;)
 
 ## YMap
-This is a rather grandious idea of mine that I've started to build three times now, each time hitting a wall because of my own lack of knowledge in programming.
+And finally, this is a rather grandious idea of mine that I've started to build three times now, each time hitting a wall because of my own lack of knowledge in programming.
 Its a note taking app that supports the Apple Pen's double tap functionaliy [(which is a features I would need to manually implement at a low level)](https://github.com/rust-windowing/winit/pull/3768) to provide an alternative to MS OneNote where you would be in control of your own data, e.g. self-hosting. This may go somewhere, but the repository has three branches trying three approaches, all requiring just a bit too much time to get working well for me at the moment.
+If I was to pick one project to spend the rest of my life on, at the moment, it would be this one.
 
 <!--
 **ActuallyHappening/ActuallyHappening** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
