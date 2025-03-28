@@ -17,7 +17,7 @@ I needed to know the maths behind what I was building, but the success of that p
 ## JYD
 Now I'm building a really cool 100% Rust ecommerce website from scratch.
 I really enjoy building things without any tutorials, it forces you to solve already known problems and really makes you appreciate your solutions.
-I've noticed that my solutions to many existing problems have matched 'industry standard' almost exactly, it is very satisfying to listen to other devs talk about problems in the companies codebase that I solved myself just the other week.
+I've noticed that my solutions to many existing problems have matched 'industry standard' almost exactly, it is very satisfying to listen to other devs talk about problems in the companie's codebase that I solved myself just the other week.
 
 Building it in 100% Rust means I have had to seriously challenge myself, as when I first began many important projects were still starting out.
 I'm keeping the source code closed-source for the moment, because I don't want other people to naively benefit from the many hours of effort by just copy-pasting my work!
