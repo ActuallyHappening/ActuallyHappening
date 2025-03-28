@@ -10,8 +10,8 @@ Such a simple solution, but I designed it to be transparent and automatic, so on
 I wanted to mention this because it was the first time a project I had built directly impacted the lives of people I had never met before, and because it used a very-hacky method of integrating [Flutter](https://flutter.dev/) with the [JS chrome extension API](https://developer.chrome.com/docs/extensions/reference/api) that I still get Github issue emails from to this day ;)
 
 ## ChessBois
-Around the same time, me and a couple other friends entered a competition called the [Mathematics and Statistics Research Competition (MSRC)](https://ms.unimelb.edu.au/engage/outreach/mathematics-and-statistics-research-challenge). We won the Queensland Prize, and are now [having it being published](https://ijhsr.terrajournals.org/), but my favourite part is the app I built which can be viewed in website form here: https://caleb-msrc-q11.netlify.app/. It is 100% Rust, uses a 3D game engine library called [Bevy](https://bevyengine.org/), and was an invaludable tool that has not been made before (to my knowledge).
-I needed to know the maths behind what I was building, but the success of that paper taught me the potential benifits of combining that domain-specific knowledge with good programming skills, which is more than just the best of both worlds.
+Around the same time, me and a couple other friends entered a competition called the [Mathematics and Statistics Research Competition (MSRC)](https://ms.unimelb.edu.au/engage/outreach/mathematics-and-statistics-research-challenge). We won the Queensland Prize, and are now [having it being published](https://ijhsr.terrajournals.org/), but my favourite part is the app I built which can be viewed in website form here: https://caleb-msrc-q11.netlify.app/. It is 100% Rust, uses a 3D game engine library called [Bevy](https://bevyengine.org/), and was an invaluable tool that has not been made before (to my knowledge).
+I needed to know the maths behind what I was building, but the success of that paper taught me the potential benefits of combining that domain-specific knowledge with good programming skills, which is more than just the best of both worlds.
 
 
 ## JYD
@@ -20,7 +20,7 @@ I really enjoy building things without any tutorials, it forces you to solve alr
 I've noticed that my solutions to many existing problems have matched 'industry standard' almost exactly, it is very satisfying to listen to other devs talk about problems in the companies codebase that I solved myself just the other week.
 
 Building it in 100% Rust means I have had to seriously challenge myself, as when I first began many important projects were still starting out.
-I'm keeping the source code closed-source for the moment, because I don't want other people to naively benifit from the many hours of effort by just copy-pasting my work!
+I'm keeping the source code closed-source for the moment, because I don't want other people to naively benefit from the many hours of effort by just copy-pasting my work!
 But I can say the tech stack I'm using:
 - [Leptos](https://leptos.dev/), a strongly-typed fine-grained reactivity isomorphic web framework; Integrating with its reactivity implementation has taught me a lot about how reactivity is implemented in other frameworks (such as VueJS and React) beacuse it is done in a strongly-typed manner, and is no nonsense about error (panics, not loosey-goosey JS errors, will happen if you do something wrong)
 - [SurrealDB](https://surrealdb.com/), a 100% Rust database implementation; I've absolutely abused this libraries epic live updating features even when [internal bugs surface](https://github.com/surrealdb/surrealdb/issues/4921#issuecomment-2754496703), and I've designed my own in-house integration between surrealdb and leptos so that the UI with fine-grained reactivity updates on WebSocket-pushed database updates!
