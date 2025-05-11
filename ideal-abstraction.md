@@ -36,3 +36,8 @@ In the end, even Christianity doesn't give us an ideal abstraction. The the ques
 - Stability without stagnation, rebuilding your projects regularly (daily hopefully)
   - This is a hard but objective goal, updating minor versions and running tests when minor versions of dependencies change is very important from a security standpoint and a good practise
   - Stability is hard to do properly, automated tooling is very important here
+- Running programs is always better than "declarativeness"
+  - Hot take, programs can be written declaratively and there is always a blur between running a program and resolving configuration options
+  - In general serializability and declarativity are seperate and inequal concepts, configuration can be serializable without being declarative, think IR
+  - Hooks shouldn't rely on anything to do with the system except a very *very* small hole, say a command to build and run a Rust project that takes a stdin and pipes stdout like `cargo run pre_commit_hook`.
+    This hole should be a rust project on the stable channel where the version of stable used is `msrv`ed to something determined by the version of the project itself, to force updates and allow modern scripts to be reasonably backwards compatible
