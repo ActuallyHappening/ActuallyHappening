@@ -26,3 +26,13 @@ In the end, even Christianity doesn't give us an ideal abstraction. The the ques
   - This helps debugging, even in release builds exposing line numbers isn't a security vulnerabilty
   - This also allows for holistic understanding, traces should be a trusted and reliable system, so reading traces should give you a solid understanding of the workings of code
   - To practically facilitate this, it would be great in Rust for a `std2` crate to be released that automatically traces all systemcalls with high-level interpretations (performance wise, most of this would be disabled by default). Ideally, by patching std you could get traces of most file reads and network calls to truly understand how a program behaves
+- OS-level appreciation, meaning using RedoxOS where things don't "just work" and your forced to understand the hardware and many layers of software involved
+  - RedoxOS is 100% Rust which is why I'm interested in it
+- Statically linking everything, OpenSSL included
+  - Dynamically linking is a thing of the past in terms of the problem it solved, which was to save storage space
+  - Statically linking avoid you needing to validate your consuming an un-compromised library at runtime
+  - Statically linking forces you to constantly rebuild your project as your deps update.
+    This is perhaps its biggest downside, your tiny CLI project which linked against a yesterday-compromosed OpenSSL version will never update faster than your OS currently
+- Stability without stagnation, rebuilding your projects regularly (daily hopefully)
+  - This is a hard but objective goal, updating minor versions and running tests when minor versions of dependencies change is very important from a security standpoint and a good practise
+  - Stability is hard to do properly, automated tooling is very important here
