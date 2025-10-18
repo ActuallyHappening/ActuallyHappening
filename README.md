@@ -20,7 +20,7 @@ And finally, this is a rather grandious idea of mine that I've started to build 
   - It is a compiled language which deeply understands the computer it is targetting
   - All aspects of the languages assumptions are documented programmatically, and can be conveniently looked up by programmers
   - Programming in `The` stores only IR. There is no stable textual storage format. Therefore, a new ~~text~~ *IDE* editor must be built that deeply supports `The`, and users must customize their programming experience to make assumptions that they understand fluently
-  - VCS is applied within the language, so that dichotamous branches turn into `The`-understood conditionals. Like having a runtime feature-flag for every branch, except at compile time. In `Rust` parlance, the closes equivalent to this would be an automatic `cargo` feature enabled for the current branch, which you could `#[cfg]` code based on.
+  - VCS is applied within the language, so that dichotamous branches turn into `The`-understood conditionals. Like having a runtime feature-flag for every branch, except at compile time. In `Rust` parlance, the closest equivalent to this would be an automatic `cargo` feature enabled for the current branch, which you could `#[cfg]` code based on.
 
 
 
