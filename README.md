@@ -4,7 +4,7 @@ I'm an enthusiastic programmer, who spends most of his free time integrating Rus
 I work casually at a local programming company [MFDC](https://mfdc.io/) and contract for [Salt](salt.space), as well as on many side projects that have collectively taught me most of what I know today about programming.
 
 ## Schoolbox Styling
-During high school (grade 10) I built a small chrome extension to change the colours of SchoolBox, an LMS our school used. It quickly grew in popularity, now it has over a hundred users spread across various schools in Ausrtalia and New Zealand.
+During high school (grade 10) I built a small chrome extension to change the colours of SchoolBox, an LMS our school used. It quickly grew in popularity, now it has over a hundred users spread across various schools in Australia and New Zealand.
 Such a simple solution, but I designed it to be transparent and automatic, so once you've installed it, it will silently sync between devices and just keep working.
 I wanted to mention this because it was the first time a project I had built directly impacted the lives of people I had never met before, and because it used a very-hacky method of integrating [Flutter](https://flutter.dev/) with the [JS chrome extension API](https://developer.chrome.com/docs/extensions/reference/api) that I still get Github issue emails from to this day ;)
 
@@ -21,8 +21,6 @@ And finally, this is a rather grandious idea of mine that I've started to build 
   - All aspects of the languages assumptions are documented programmatically, and can be conveniently looked up by programmers
   - Programming in `The` stores only IR. There is no stable textual storage format. Therefore, a new ~~text~~ *IDE* editor must be built that deeply supports `The`, and users must customize their programming experience to make assumptions that they understand fluently
   - VCS is applied within the language, so that dichotamous branches turn into `The`-understood conditionals. Like having a runtime feature-flag for every branch, except at compile time. In `Rust` parlance, the closest equivalent to this would be an automatic `cargo` feature enabled for the current branch, which you could `#[cfg]` code based on.
-
-
 
 <!--
 **ActuallyHappening/ActuallyHappening** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
