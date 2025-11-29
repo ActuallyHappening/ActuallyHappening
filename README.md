@@ -14,7 +14,7 @@ And, during the ETHGlobal 2025 hackathon, I taught myself to write Solidity and 
 
 ### Web2 with MFDC
 Late 2022 I was brought on as a casual employee of [MFDC](https://mfdc.io/) and through them have been taught fullstack development in practise.
-My experience includes `vue`JS (v2 and v3), NodeJS, self-hosting with `pm2`.
+My experience includes `vue`JS (v2 and v3), NodeJS, and self-hosting with `pm2`.
 I can design WASM and JavaScript frontends and backends, although I detest the state of Web2 (browsers, HTML, CSS, JS) and prefer the consensus of EVM with the security of Ethereum.
 
 ### Past side projects
