@@ -17,7 +17,7 @@ There are only two hard things in Computer Science: cache invalidation and namin
 — Phil Karlton
 ```
 
-### Naming
+## Naming: Lojban
 English is a terrible natural human language for making precise enough for computers.
 The value add of AI is in part because it can make precise human language,
 e.g. saying "Hey Siri, set a 10 minute timer" could be identical to `setTimer(10, Minutes)`, but one is intrinsically precise while the other requires AI to be.
@@ -33,3 +33,19 @@ take advantage of.
 - It can express thoughts as spoken by people that are now multi-lingual at all meta levels,
 so that conferences (probably a stretch) or online videos can be precise in their original
 recordings rather than requiring translations done after the fact.
+
+
+
+## Falsification: Decentralized, low trust continuous falsification
+Given a computer is instructed at all meta-levels in Lojban, and abstractions are designed and implemented,
+we need a new internet.
+Communication mediums exist but there is no open standard for web networks to use them.
+I do not understand how the IP / Internetting protocols work but I kinda want to build a new Internet anyway
+that is hobbyist friendly.
+That way if I create my own communication medium I can design my own working integration with this Internet.
+
+### Continuous falsification
+Ideally anybody can run "test" or what I call falsifications (as a noun and concept),
+that try to falsify some system by getting it to behave erratically or in a manner not expected.
+Think race condition checking.
+These falsifications should:
